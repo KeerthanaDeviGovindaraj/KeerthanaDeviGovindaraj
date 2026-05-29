@@ -2,9 +2,9 @@
 
 # Hey, I'm Keerthana 👋
 
-### MS Software Engineering @ Northeastern University
+# MS Software Engineering @ Northeastern University
 
-### Full-Stack • Cloud • DevOps • ML
+# Full-Stack • Cloud • DevOps • ML
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=38BDAE&center=true&vCenter=true&width=750&lines=Full-Stack+Engineer;Cloud-Native+Builder;AWS+%7C+FastAPI+%7C+React;Building+Secure+Scalable+Systems;Open+to+SDE+Internships+2026" />
 
@@ -98,6 +98,14 @@ I care about building software that is:
 * Production-style cloud architecture
 * Secure-by-default infrastructure
 
+<div align="center">
+
+<a href="https://github.com/keerthanadevig28">
+  <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</div>
+
 ---
 
 ## ⚽ GLIMPSE — AI Sports Commentary Platform
@@ -110,11 +118,13 @@ I care about building software that is:
 * Reduced manual commentary effort by 80%
 * Designed MongoDB schema and CI/CD deployment pipeline
 
-<p align="center">
-  <a href="https://github.com/KeerthanaDeviGovindaraj/GLIMPSE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KeerthanaDeviGovindaraj&repo=GLIMPSE&theme=tokyonight&hide_border=true"/>
-  </a>
-</p>
+<div align="center">
+
+<a href="https://github.com/KeerthanaDeviGovindaraj/GLIMPSE">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=KeerthanaDeviGovindaraj&repo=GLIMPSE&theme=tokyonight&hide_border=true"/>
+</a>
+
+</div>
 
 ---
 
@@ -127,11 +137,13 @@ I care about building software that is:
 * Transfer learning improved accuracy by 20%
 * Published as a research paper
 
-<p align="center">
-  <a href="https://github.com/KeerthanaDeviGovindaraj/Autism_Eye">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KeerthanaDeviGovindaraj&repo=Autism_Eye&theme=tokyonight&hide_border=true"/>
-  </a>
-</p>
+<div align="center">
+
+<a href="https://github.com/KeerthanaDeviGovindaraj/Autism_Eye">
+  <img src="https://img.shields.io/badge/View%20Research%20Project-GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</div>
 
 ---
 
@@ -139,7 +151,7 @@ I care about building software that is:
 
 <div align="center">
 
-[![Keerthana's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=KeerthanaDeviGovindaraj\&bg_color=1a1b27\&color=38bdae\&line=628fdb\&point=ffffff\&area=true\&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KeerthanaDeviGovindaraj&bg_color=1a1b27&color=38bdae&line=628fdb&point=ffffff&area=true&hide_border=true"/>
 
 </div>
 
@@ -147,7 +159,7 @@ I care about building software that is:
 
 # 🌱 Currently Exploring
 
-* Kubernetes & Helm
+* AI Agents 
 * Distributed Systems
 * Event-Driven Architectures
 * AWS Networking & Security
