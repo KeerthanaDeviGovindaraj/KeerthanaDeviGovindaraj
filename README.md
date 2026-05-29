@@ -50,6 +50,11 @@ accuracy improvement over baseline across 10,000+ samples. Published as a resear
 **Languages:** Python · Java · TypeScript · JavaScript · C++
 
 ---
+## 🐍 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KeerthanaDeviGovindaraj/KeerthanaDeviGovindaraj/output/github-contribution-grid-snake.svg" />
+</p>
 
 ## 📬 Let's connect
 
