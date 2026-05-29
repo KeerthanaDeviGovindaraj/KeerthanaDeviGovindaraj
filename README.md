@@ -1,10 +1,22 @@
+Here’s your cleaned, corrected, fully working final README version with:
+
+* fixed markdown hierarchy
+* cleaner spacing
+* working contribution graph
+* polished project sections
+* recruiter-friendly structure
+* no broken widgets
+* better visual consistency
+
+Just paste this directly into your `README.md`.
+
 <div align="center">
 
 # Hey, I'm Keerthana 👋
 
-# MS Software Engineering @ Northeastern University
+### MS Software Engineering @ Northeastern University
 
-# Full-Stack • Cloud • DevOps • ML
+### Full-Stack • Cloud • DevOps • ML
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=38BDAE&center=true&vCenter=true&width=750&lines=Full-Stack+Engineer;Cloud-Native+Builder;AWS+%7C+FastAPI+%7C+React;Building+Secure+Scalable+Systems;Open+to+SDE+Internships+2026" />
 
@@ -24,13 +36,23 @@
 
 <br/><br/>
 
+![](https://img.shields.io/badge/Open%20to-SDE%20Internships%202026-success?style=flat-square)
+![](https://img.shields.io/badge/Focus-Cloud%20%26%20Distributed%20Systems-blue?style=flat-square)
+![](https://img.shields.io/badge/Based%20In-Boston%2C%20MA-informational?style=flat-square)
+
+<br/><br/>
+
 <img src="https://komarev.com/ghpvc/?username=KeerthanaDeviGovindaraj&label=Profile%20Views&color=0e75b6&style=flat" />
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDAE,100:628FDB&height=2&section=header"/>
 
 </div>
 
 ---
 
-# 💫 About Me
+## 💫 About Me
 
 I'm a full-stack engineer who enjoys building systems end-to-end — from designing REST APIs and cloud infrastructure to shipping polished frontend experiences.
 
@@ -50,7 +72,7 @@ I care about building software that is:
 
 ---
 
-# 🚀 Tech Stack
+## 🚀 Tech Stack
 
 <div align="center">
 
@@ -60,7 +82,7 @@ I care about building software that is:
 
 ---
 
-# 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -80,9 +102,9 @@ I care about building software that is:
 
 ---
 
-# 🔨 Featured Projects
+## 🔨 Featured Projects
 
-## ☁️ Cloud-Native Serverless Web Application
+### ☁️ Cloud-Native Serverless Web Application
 
 `Python` `FastAPI` `PostgreSQL` `Terraform` `AWS` `GitHub Actions`
 
@@ -92,7 +114,7 @@ I care about building software that is:
 * Separate KMS keys per resource with rotation
 * Secrets securely pulled from AWS Secrets Manager
 
-### 📌 Highlights
+#### 📌 Highlights
 
 * Zero manual AWS console setup
 * Production-style cloud architecture
@@ -108,7 +130,7 @@ I care about building software that is:
 
 ---
 
-## ⚽ GLIMPSE — AI Sports Commentary Platform
+### ⚽ GLIMPSE — AI Sports Commentary Platform
 
 `React.js` `Redux` `Node.js` `MongoDB` `Gemini API` `Vercel`
 
@@ -128,7 +150,7 @@ I care about building software that is:
 
 ---
 
-## 🧠 Eye Tracking Based ASD Diagnosis
+### 🧠 Eye Tracking Based ASD Diagnosis
 
 `Python` `TensorFlow` `CNN` `PCA` `OpenCV`
 
@@ -147,7 +169,7 @@ I care about building software that is:
 
 ---
 
-# 📈 Contribution Activity
+## 📈 Contribution Activity
 
 <div align="center">
 
@@ -157,9 +179,9 @@ I care about building software that is:
 
 ---
 
-# 🌱 Currently Exploring
+## 🌱 Currently Exploring
 
-* AI Agents 
+* AI Agents
 * Distributed Systems
 * Event-Driven Architectures
 * AWS Networking & Security
@@ -167,7 +189,7 @@ I care about building software that is:
 
 ---
 
-# 📬 Let's Connect
+## 📬 Let's Connect
 
 <div align="center">
 
