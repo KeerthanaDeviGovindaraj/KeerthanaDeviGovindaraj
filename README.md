@@ -60,26 +60,6 @@ I care about building software that is:
 
 ---
 
-# 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=KeerthanaDeviGovindaraj&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KeerthanaDeviGovindaraj&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=KeerthanaDeviGovindaraj&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
 # 🔨 Featured Projects
 
 ## ☁️ Cloud-Native Serverless Web Application
@@ -98,12 +78,6 @@ I care about building software that is:
 * Production-style cloud architecture
 * Secure-by-default infrastructure
 
-<p align="center">
-  <a href="https://github.com/keerthanadevig28">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=keerthanadevig28&repo=webapp&theme=tokyonight&hide_border=true"/>
-  </a>
-</p>
-
 ---
 
 ## ⚽ GLIMPSE — AI Sports Commentary Platform
@@ -116,12 +90,6 @@ I care about building software that is:
 * Reduced manual commentary effort by 80%
 * Designed MongoDB schema and CI/CD deployment pipeline
 
-<p align="center">
-  <a href="https://github.com/KeerthanaDeviGovindaraj/GLIMPSE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KeerthanaDeviGovindaraj&repo=GLIMPSE&theme=tokyonight&hide_border=true"/>
-  </a>
-</p>
-
 ---
 
 ## 🧠 Eye Tracking Based ASD Diagnosis
@@ -132,12 +100,6 @@ I care about building software that is:
 * Trained on 10,000+ eye-tracking samples
 * Transfer learning improved accuracy by 20%
 * Published as a research paper
-
-<p align="center">
-  <a href="https://github.com/KeerthanaDeviGovindaraj/Autism_Eye">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=KeerthanaDeviGovindaraj&repo=Autism_Eye&theme=tokyonight&hide_border=true"/>
-  </a>
-</p>
 
 ---
 
