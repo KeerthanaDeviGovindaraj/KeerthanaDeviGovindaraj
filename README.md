@@ -13,7 +13,7 @@ to SDE internships for Summer/Fall 2026.
 
 ## 🔨 What I'm building
 
-### [Cloud-Native Serverless Web Application](https://github.com/keerthanadevig28))
+### [Cloud-Native Serverless Web Application](https://github.com/keerthanadevig28)
 `Python` `FastAPI` `PostgreSQL` `Terraform` `AWS` `GitHub Actions`
 
 Full IaC deployment — VPC, autoscaling, multi-AZ RDS, all written in Terraform, nothing clicked 
