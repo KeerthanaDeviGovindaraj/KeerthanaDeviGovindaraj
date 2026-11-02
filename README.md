@@ -75,6 +75,19 @@ I'm a full-stack engineer who enjoys building systems end-to-end, from designing
 ---
 
 ## 🔨 Featured Projects
+### 🔎 SchemaLens — Make Legacy PostgreSQL Databases Understandable
+`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `pglast` `MCP`
+Point it at a Postgres database and get searchable docs, a map of which functions read and write which tables (parsed from PL/pgSQL with Postgres's own parser), AI explanations audited against the static analysis, and an MCP server so AI assistants write correct SQL. Accuracy is measured against a hand-labeled benchmark and gated in CI; only system catalogs are read, never row data.
+<div align="center">
+<a href="https://web-sigma-six-99.vercel.app">
+  <img src="https://img.shields.io/badge/Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+<a href="https://github.com/KeerthanaDeviGovindaraj/schemalens">
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github"/>
+</a>
+</div>
+
+---
 
 ### 🌊 HeatSink — Seawater-Cooled Data Center Siting Tool
 `TypeScript` `React` `Vite` `Vitest` `Geospatial`
