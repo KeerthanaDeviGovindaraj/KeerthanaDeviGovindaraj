@@ -1,200 +1,101 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDAE,100:628FDB&height=200&section=header&text=Keerthana%20Devi%20Govindaraj&fontColor=ffffff&fontSize=40&fontAlignY=38&desc=Full-Stack%20Software%20Engineer%20%7C%20Cloud%20%7C%20AI&descSize=18&descAlignY=60"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=F3EDE3&height=140&section=header&text=Keerthana%20Devi%20Govindaraj&fontColor=2B2622&fontSize=38&fontAlign=50&fontAlignY=50" alt="Keerthana Devi Govindaraj"/>
 
-### MS Software Engineering @ Northeastern University
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1200&color=B9502F&center=true&vCenter=true&width=720&lines=Full+stack+engineer;Software+that+shows+its+work;Open+to+full-time+SWE+roles" alt="Full stack engineer. Software that shows its work. Open to full-time SWE roles."/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=38BDAE&center=true&vCenter=true&width=750&lines=Full-Stack+Software+Engineer;Cloud-Native+Builder+on+AWS;Java+%7C+Spring+Boot+%7C+React+%7C+FastAPI;Building+Secure+Scalable+Systems;Open+to+Full-Time+SWE+Roles" />
+M.S. Software Engineering Systems @ Northeastern University, Boston
 
-<br/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-2B2622?style=for-the-badge&logo=netlify&logoColor=F3EDE3)](https://keerthanadevigportfolio.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-2B2622?style=for-the-badge&logo=linkedin&logoColor=F3EDE3)](https://www.linkedin.com/in/keerthanadevig28062002/)
+[![Resume](https://img.shields.io/badge/Resume-2B2622?style=for-the-badge&logo=readme&logoColor=F3EDE3)](https://keerthanadevigportfolio.netlify.app/Keerthana_Devi_Govindaraj_Resume-SDE.pdf)
+[![Email](https://img.shields.io/badge/Email-2B2622?style=for-the-badge&logo=gmail&logoColor=F3EDE3)](mailto:govindaraj.ke@northeastern.edu)
 
-<a href="https://www.linkedin.com/in/keerthanadevig28062002/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://keerthanadevigportfolio.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white"/>
-</a>
-<a href="mailto:govindaraj.ke@northeastern.edu">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-![](https://img.shields.io/badge/Open%20to-Full--Time%20SWE%20Roles-success?style=flat-square)
-![](https://img.shields.io/badge/Focus-Cloud%20%26%20Distributed%20Systems-blue?style=flat-square)
-![](https://img.shields.io/badge/Based%20In-Boston%2C%20MA-informational?style=flat-square)
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=KeerthanaDeviGovindaraj&label=Profile%20Views&color=0e75b6&style=flat" />
+![Open to full-time SWE roles](https://img.shields.io/badge/Open%20to-Full--time%20SWE%20roles-B9502F?style=flat-square&labelColor=2B2622)
 
 </div>
 
 ---
 
-## 💫 About Me
+## About
 
-I'm a full-stack engineer who enjoys building systems end-to-end, from designing REST APIs and cloud infrastructure to shipping polished frontend experiences. I care about software that is **secure, scalable, maintainable, and production-ready**.
+**I like software that shows its work.**
 
-- 🏢 **Product Analyst @ Linedata** — modernizing the Web Admin module across asset-management software
-- ☁️ Building cloud-native, Infrastructure-as-Code projects on **AWS**
-- 📚 Exploring distributed systems, event-driven architectures, and LLM-powered apps
-- 🎯 **Open to full-time Software Engineering roles**
+I started in electronics and computer engineering at SRM, then found machine learning through an internship classifying support tickets and a research project on eye-tracking that ended up published. From there I moved into full stack engineering at FITA Academy, where I shipped a student management system for 500+ students. Now I'm doing my master's in Software Engineering Systems at Northeastern and working at Linedata.
+
+The thread through my recent projects is trust. AI tools are easy to build and hard to believe, so I try to make ones that check themselves and say plainly what they don't know.
+
+- **Show the work.** [SchemaLens](https://github.com/KeerthanaDeviGovindaraj/schemalens) cross-checks every AI explanation against static analysis. [Dry Run](https://github.com/KeerthanaDeviGovindaraj/Dry-Run) tags each claim as given, benchmark, or assumption.
+- **Say what it doesn't know.** [IntentTrace](https://github.com/KeerthanaDeviGovindaraj/intenttrace) labels its synthetic results as pipeline tests, not accuracy. [HeatSink](https://github.com/KeerthanaDeviGovindaraj/HeatSink) calls itself a screening tool, not a permit decision.
+- **Test how it breaks.** Property-based tests in HeatSink and IntentTrace, and a hand-labeled accuracy benchmark that runs in CI for SchemaLens.
+
+**Currently:** Product Analyst at Linedata, master's student at Northeastern, and shipping AI-systems side projects. The latest is IntentTrace.
 
 ---
 
-## 🚀 Tech Stack
+## Featured projects
+
+### [SchemaLens](https://github.com/KeerthanaDeviGovindaraj/schemalens)
+Point it at a legacy PostgreSQL database and it becomes readable again. Searchable docs for every table and function, a read/write lineage map parsed straight from the PL/pgSQL, plain-English explanations cross-checked against static analysis, and an MCP server so AI assistants write correct SQL against your schema. Accuracy is scored against a hand-labeled benchmark in CI.
+
+`Python` `TypeScript` `React` `PostgreSQL` `PL/pgSQL` `MCP`
+
+[Live demo](https://web-sigma-six-99.vercel.app) · [Code](https://github.com/KeerthanaDeviGovindaraj/schemalens)
+
+### [IntentTrace](https://github.com/KeerthanaDeviGovindaraj/intenttrace)
+When an AI agent gets tricked into buying something, who pays? A pre-payment gate blocks suspicious carts, and an investigator replays the purchase without the suspicious text to decide whether it was legitimate, out of scope, tampered with, or manipulated by prompt injection. Decisions land in a signed, tamper-evident log. Scored on a 300-case synthetic benchmark, and upfront that this tests the pipeline, not real-world accuracy.
+
+`Python` `FastAPI` `React` `TypeScript` `MCP` `Docker`
+
+[Live demo](https://intenttrace.onrender.com) (free tier, the first load can take about a minute) · [Code](https://github.com/KeerthanaDeviGovindaraj/intenttrace)
+
+### [HeatSink](https://github.com/KeerthanaDeviGovindaraj/HeatSink)
+A screening tool that answers one question: if you cooled an AI data center with seawater, where would its heat do the least harm to the ocean? It maps coastal temperatures, models the thermal plume, and gives planners a plain-English read. Covered by unit and property-based tests. Built with a teammate.
+
+`TypeScript` `React` `Vite` `Vitest`
+
+[Live demo](https://keerthanadevigovindaraj.github.io/HeatSink/) · [Video](https://youtu.be/4AGqKQUWBaI) · [Code](https://github.com/KeerthanaDeviGovindaraj/HeatSink)
+
+### Cloud-Native Serverless App
+Production-style AWS infrastructure in 3,000+ lines of Terraform (VPCs, EC2 Auto Scaling, RDS Multi-AZ, ALB, Route53), plus an SNS to Lambda to DynamoDB verification pipeline and secure-by-default IAM, KMS, and Secrets Manager.
+
+`Python` `FastAPI` `Terraform` `AWS` `Packer` `GitHub Actions`
+
+[Infrastructure](https://github.com/KeerthanaDeviGovindaraj/tf-infra-fork) · [App](https://github.com/KeerthanaDeviGovindaraj/webapp-FORK)
+
+### [Dry Run](https://github.com/KeerthanaDeviGovindaraj/Dry-Run)
+Rehearse a product decision before it's real. Seven AI stakeholders (engineering, marketing, risk, a devil's advocate and more) pressure-test the call, then a decision lead writes a brief with the case against it and an assumptions register. You can ground the panel in your own CSV so it argues from real numbers instead of inventing them.
+
+`Python` `CrewAI` `Streamlit` `OpenAI` `Docker`
+
+[Code](https://github.com/KeerthanaDeviGovindaraj/Dry-Run)
+
+**Earlier work:** [GLIMPSE](https://github.com/KeerthanaDeviGovindaraj/GLIMPSE) (AI sports commentary on the Gemini API, team of 4, [live](https://glimpse-kappa.vercel.app/)) · [InboxTriage](https://github.com/KeerthanaDeviGovindaraj/inboxtriage) (AI email triage for accounting firms) · [Eye-tracking ASD diagnosis](https://github.com/KeerthanaDeviGovindaraj/Autism_Eye) (CNN research, published)
+
+---
+
+## Stack
 
 <div align="center">
-
-**Languages & Frameworks**
-
-<img src="https://skillicons.dev/icons?i=java,python,ts,js,react,nextjs,redux,angular,nodejs,express,fastapi,spring,django&perline=13" />
-
-**Cloud, Data & ML**
-
-<img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,postgres,mongodb,mysql,tensorflow,pytorch,opencv,git,github,linux&perline=13" />
-
+<img src="https://skillicons.dev/icons?i=py,ts,js,java,react,nextjs,redux,fastapi,spring,nodejs,aws,terraform,docker,postgres,mongodb,githubactions,vite,tailwind,tensorflow,opencv,git&perline=11&theme=light" alt="Python, TypeScript, JavaScript, Java, React, Next.js, Redux, FastAPI, Spring Boot, Node.js, AWS, Terraform, Docker, PostgreSQL, MongoDB, GitHub Actions, Vite, Tailwind CSS, TensorFlow, OpenCV, Git"/>
 </div>
+
+Each item points to where I've actually used it.
+
+- **Languages:** Python (SchemaLens, IntentTrace, Dry Run, Cloud-Native, ASD research), TypeScript (HeatSink, SchemaLens, IntentTrace, InboxTriage), Java (Spring Boot at FITA Academy), SQL and PL/pgSQL (SchemaLens), JavaScript (GLIMPSE)
+- **Frontend:** React (HeatSink, SchemaLens, IntentTrace, GLIMPSE, FITA Academy), Next.js (InboxTriage), Redux (GLIMPSE), Tailwind CSS (IntentTrace, InboxTriage), Vite (HeatSink, SchemaLens, IntentTrace)
+- **Backend:** FastAPI (SchemaLens, IntentTrace, Cloud-Native), Spring Boot (20+ REST APIs with JWT and RBAC at FITA Academy), Node.js (GLIMPSE)
+- **Cloud and DevOps:** AWS (Cloud-Native: EC2 Auto Scaling, RDS Multi-AZ, ALB, Route53, Lambda, SNS, DynamoDB, IAM, KMS, Secrets Manager), Terraform, Packer, Docker (IntentTrace, Dry Run, Aican Automate), GitHub Actions (CI for SchemaLens, IntentTrace, Cloud-Native; deploys for HeatSink)
+- **Data:** PostgreSQL (SchemaLens, Cloud-Native), MongoDB (FITA Academy, GLIMPSE), DynamoDB (Cloud-Native)
+- **AI and ML:** OpenAI (InboxTriage, Dry Run), Gemini (GLIMPSE), multi-agent with CrewAI (Dry Run), MCP servers (SchemaLens, IntentTrace), TensorFlow and OpenCV (ASD research), NLP (ticket classifier at Aican Automate)
+- **Testing and tools:** pytest, Vitest, property-based testing (fast-check in HeatSink, Hypothesis in IntentTrace), labeled benchmarks, Kiro for spec-driven development (IntentTrace, HeatSink)
+
+Also worked with: Angular, Material-UI, Django, Express, MySQL, SQLAlchemy, PyTorch.
 
 ---
 
-## 📊 GitHub Stats
+## Let's talk
 
-<div align="center">
+Open to full-time Software Engineering, Full Stack, and Cloud roles. If you're hiring, or you just want to talk shop, say hi.
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=KeerthanaDeviGovindaraj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KeerthanaDeviGovindaraj&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-<br/>
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=KeerthanaDeviGovindaraj&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 🔨 Featured Projects
-### 🔎 SchemaLens — Make Legacy PostgreSQL Databases Understandable
-`Python` `FastAPI` `React` `TypeScript` `PostgreSQL` `pglast` `MCP`
-Point it at a Postgres database and get searchable docs, a map of which functions read and write which tables (parsed from PL/pgSQL with Postgres's own parser), AI explanations audited against the static analysis, and an MCP server so AI assistants write correct SQL. Accuracy is measured against a hand-labeled benchmark and gated in CI; only system catalogs are read, never row data.
-<div align="center">
-<a href="https://web-sigma-six-99.vercel.app">
-  <img src="https://img.shields.io/badge/Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-<a href="https://github.com/KeerthanaDeviGovindaraj/schemalens">
-  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github"/>
-</a>
-</div>
-
----
-
-### 🌊 HeatSink — Seawater-Cooled Data Center Siting Tool
-`TypeScript` `React` `Vite` `Vitest` `Geospatial`
-
-A full-stack screening tool that maps coastal temperatures and models thermal-plume impact to find where a seawater-cooled AI data center does the least harm to the ocean, with plain-English risk verdicts for planners. Backed by unit + property-based tests and CI.
-
-<div align="center">
-<a href="https://keerthanadevigovindaraj.github.io/HeatSink/">
-  <img src="https://img.shields.io/badge/Live%20Demo-38BDAE?style=for-the-badge&logo=githubpages&logoColor=white"/>
-</a>
-<a href="https://youtu.be/4AGqKQUWBaI">
-  <img src="https://img.shields.io/badge/Demo%20Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
-<a href="https://github.com/KeerthanaDeviGovindaraj/HeatSink">
-  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github"/>
-</a>
-</div>
-
----
-
-### ☁️ Cloud-Native Serverless Web Application
-`Python` `FastAPI` `PostgreSQL` `Terraform` `AWS` `GitHub Actions`
-
-- Full Infrastructure-as-Code deployment: 3,000+ lines of Terraform across VPCs, EC2 Auto Scaling, RDS Multi-AZ, ALB, and Route53
-- Serverless SNS → Lambda → DynamoDB verification pipeline with token expiration and deduplication
-- Secure-by-default: IAM, per-resource KMS keys with rotation, Secrets Manager, BCrypt, ACM-managed TLS
-- Repeatable deployments via GitHub Actions CI/CD — zero manual AWS console setup
-
-<div align="center">
-<a href="https://github.com/KeerthanaDeviGovindaraj/tf-infra-fork">
-  <img src="https://img.shields.io/badge/Infra%20(Terraform)-181717?style=for-the-badge&logo=terraform"/>
-</a>
-<a href="https://github.com/KeerthanaDeviGovindaraj/webapp-FORK">
-  <img src="https://img.shields.io/badge/App%20Code-181717?style=for-the-badge&logo=github"/>
-</a>
-</div>
-
----
-
-### ⚽ GLIMPSE - AI Sports Commentary Platform
-`React.js` `Redux` `Node.js` `MongoDB` `Gemini API` `Vercel`
-
-- Built with a team of 4 engineers; led frontend architecture and Redux state management
-- Integrated the Gemini API for AI-generated commentary, reducing manual effort by 80%
-- Designed the MongoDB schema and the CI/CD deployment pipeline on Vercel
-
-<div align="center">
-<a href="https://glimpse-kappa.vercel.app/">
-  <img src="https://img.shields.io/badge/Live%20Demo-38BDAE?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-<a href="https://github.com/KeerthanaDeviGovindaraj/GLIMPSE">
-  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github"/>
-</a>
-</div>
-
----
-
-### 📧 InboxTriage - AI Email Triage Tool
-`Next.js` `TypeScript` `Tailwind CSS` `Zustand` `Vitest`
-
-An AI tool that triages client emails for small accounting and bookkeeping firms: paste an email and get a category, urgency level, extracted details, and a ready-to-send draft reply, powered by the OpenAI API. Tested Zustand state layer with Vitest, deployed via CI/CD.
-
-<div align="center">
-<a href="https://github.com/KeerthanaDeviGovindaraj/inboxtriage">
-  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github"/>
-</a>
-</div>
-
----
-
-### 🧠 Eye-Tracking Based ASD Diagnosis
-`Python` `TensorFlow` `CNN` `PCA` `OpenCV`
-
-- CNN + PCA pipeline trained on 10,000+ eye-tracking samples
-- Transfer learning improved classification accuracy by 20% over baseline
-- Published as a research paper
-
-<div align="center">
-<a href="https://github.com/KeerthanaDeviGovindaraj/Autism_Eye">
-  <img src="https://img.shields.io/badge/View%20Research%20Project-181717?style=for-the-badge&logo=github"/>
-</a>
-</div>
-
----
-
-## 🌱 Currently Exploring
-
-`AI Agents` &nbsp; `Distributed Systems` &nbsp; `Event-Driven Architectures` &nbsp; `AWS Networking & Security` &nbsp; `LLM-powered Applications`
-
----
-
-<div align="center">
-
-### 📬 Let's Connect
-
-<a href="https://www.linkedin.com/in/keerthanadevig28062002/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
-</a>
-<a href="mailto:govindaraj.ke@northeastern.edu">
-  <img src="https://img.shields.io/badge/Email-Reach%20Out-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://keerthanadevigportfolio.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=netlify"/>
-</a>
-
-<br/><br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:628FDB,100:38BDAE&height=120&section=footer"/>
-
-</div>
+[Portfolio](https://keerthanadevigportfolio.netlify.app) · [LinkedIn](https://www.linkedin.com/in/keerthanadevig28062002/) · [Email](mailto:govindaraj.ke@northeastern.edu)
