@@ -6,9 +6,9 @@
 
 M.S. Software Engineering Systems @ Northeastern University, Boston
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-2B2622?style=for-the-badge&logo=netlify&logoColor=F3EDE3)](https://keerthanadevigportfolio.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2B2622?style=for-the-badge&logo=githubpages&logoColor=F3EDE3)](https://keerthanadevigovindaraj.github.io/Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B2622?style=for-the-badge&logo=linkedin&logoColor=F3EDE3)](https://www.linkedin.com/in/keerthanadevig28062002/)
-[![Resume](https://img.shields.io/badge/Resume-2B2622?style=for-the-badge&logo=readme&logoColor=F3EDE3)](https://keerthanadevigportfolio.netlify.app/Keerthana_Devi_Govindaraj_Resume-SDE.pdf)
+[![Resume](https://img.shields.io/badge/Resume-2B2622?style=for-the-badge&logo=readme&logoColor=F3EDE3)](https://keerthanadevigovindaraj.github.io/Portfolio/Keerthana_Devi_Govindaraj_Resume-SDE.pdf)
 [![Email](https://img.shields.io/badge/Email-2B2622?style=for-the-badge&logo=gmail&logoColor=F3EDE3)](mailto:govindaraj.ke@northeastern.edu)
 
 ![Open to full-time SWE roles](https://img.shields.io/badge/Open%20to-Full--time%20SWE%20roles-B9502F?style=flat-square&labelColor=2B2622)
@@ -105,4 +105,4 @@ Also worked with: Angular, Material-UI, Django, Express, MySQL, SQLAlchemy, PyTo
 
 Open to full-time Software Engineering, Full Stack, and Cloud roles. If you're hiring, or you just want to talk shop, say hi.
 
-[Portfolio](https://keerthanadevigportfolio.netlify.app) · [LinkedIn](https://www.linkedin.com/in/keerthanadevig28062002/) · [Email](mailto:govindaraj.ke@northeastern.edu)
+[Portfolio](https://keerthanadevigovindaraj.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/keerthanadevig28062002/) · [Email](mailto:govindaraj.ke@northeastern.edu)
