@@ -26,10 +26,10 @@ I started in electronics and computer engineering at SRM, then found machine lea
 The thread through my recent projects is trust. AI tools are easy to build and hard to believe, so I try to make ones that check themselves and say plainly what they don't know.
 
 - **Show the work.** [SchemaLens](https://github.com/KeerthanaDeviGovindaraj/schemalens) cross-checks every AI explanation against static analysis. [Dry Run](https://github.com/KeerthanaDeviGovindaraj/Dry-Run) tags each claim as given, benchmark, or assumption.
-- **Say what it doesn't know.** [IntentTrace](https://github.com/KeerthanaDeviGovindaraj/intenttrace) labels its synthetic results as pipeline tests, not accuracy. [HeatSink](https://github.com/KeerthanaDeviGovindaraj/HeatSink) calls itself a screening tool, not a permit decision.
+- **Say what it doesn't know.** [IntentTrace](https://github.com/KeerthanaDeviGovindaraj/intenttrace) labels its synthetic results as pipeline tests, not accuracy. [Scam Interrupt](https://github.com/KeerthanaDeviGovindaraj/scam_interrupt) reports the false alarms it raised on a held-out test. [HeatSink](https://github.com/KeerthanaDeviGovindaraj/HeatSink) calls itself a screening tool, not a permit decision.
 - **Test how it breaks.** Property-based tests in HeatSink and IntentTrace, and a hand-labeled accuracy benchmark that runs in CI for SchemaLens.
 
-**Currently:** Product Analyst at Linedata, master's student at Northeastern, and shipping AI-systems side projects. The latest is IntentTrace.
+**Currently:** Product Analyst at Linedata, master's student at Northeastern, and shipping AI-systems side projects. The latest is [Scam Interrupt](https://github.com/KeerthanaDeviGovindaraj/scam_interrupt), built at HackPrinceton.
 
 ---
 
@@ -48,6 +48,13 @@ When an AI agent gets tricked into buying something, who pays? A pre-payment gat
 `Python` `FastAPI` `React` `TypeScript` `MCP` `Docker`
 
 [Live demo](https://intenttrace.onrender.com) (free tier, the first load can take about a minute) · [Code](https://github.com/KeerthanaDeviGovindaraj/intenttrace)
+
+### [Scam Interrupt](https://github.com/KeerthanaDeviGovindaraj/scam_interrupt)
+Scammers coach older adults on exactly what to tell the bank, so yes or no fraud checks fail. Scam Interrupt holds a risky transfer before it settles, asks one plain question built from the customer's own words, and brings in an opted-in family member who approves or cancels with one tap. Risk is explained with her real balance and bills, and a cancelled scam flags the payee for every customer. Built at HackPrinceton with a teammate. I built the agent, the bank integration, the risk scorer and the coaching detector. On a 10-answer held-out set it caught all 5 scams but raised 3 false alarms on 5 honest answers, and I report both.
+
+`Python` `FastAPI` `LangChain Deep Agents` `Groq` `Capital One Nessie` `Photon iMessage`
+
+[Code](https://github.com/KeerthanaDeviGovindaraj/scam_interrupt)
 
 ### [HeatSink](https://github.com/KeerthanaDeviGovindaraj/HeatSink)
 A screening tool that answers one question: if you cooled an AI data center with seawater, where would its heat do the least harm to the ocean? It maps coastal temperatures, models the thermal plume, and gives planners a plain-English read. Covered by unit and property-based tests. Built with a teammate.
@@ -82,13 +89,13 @@ Rehearse a product decision before it's real. Seven AI stakeholders (engineering
 
 Each item points to where I've actually used it.
 
-- **Languages:** Python (SchemaLens, IntentTrace, Dry Run, Cloud-Native, ASD research), TypeScript (HeatSink, SchemaLens, IntentTrace, InboxTriage), Java (Spring Boot at FITA Academy), SQL and PL/pgSQL (SchemaLens), JavaScript (GLIMPSE)
+- **Languages:** Python (SchemaLens, IntentTrace, Scam Interrupt, Dry Run, Cloud-Native, ASD research), TypeScript (HeatSink, SchemaLens, IntentTrace, InboxTriage, Scam Interrupt iMessage bridge), Java (Spring Boot at FITA Academy), SQL and PL/pgSQL (SchemaLens), JavaScript (GLIMPSE, Scam Interrupt)
 - **Frontend:** React (HeatSink, SchemaLens, IntentTrace, GLIMPSE, FITA Academy), Next.js (InboxTriage), Redux (GLIMPSE), Tailwind CSS (IntentTrace, InboxTriage), Vite (HeatSink, SchemaLens, IntentTrace)
-- **Backend:** FastAPI (SchemaLens, IntentTrace, Cloud-Native), Spring Boot (20+ REST APIs with JWT and RBAC at FITA Academy), Node.js (GLIMPSE)
+- **Backend:** FastAPI (SchemaLens, IntentTrace, Scam Interrupt, Cloud-Native), Spring Boot (20+ REST APIs with JWT and RBAC at FITA Academy), Node.js (GLIMPSE), Capital One Nessie and Photon APIs with signed webhooks (Scam Interrupt)
 - **Cloud and DevOps:** AWS (Cloud-Native: EC2 Auto Scaling, RDS Multi-AZ, ALB, Route53, Lambda, SNS, DynamoDB, IAM, KMS, Secrets Manager), Terraform, Packer, Docker (IntentTrace, Dry Run, Aican Automate), GitHub Actions (CI for SchemaLens, IntentTrace, Cloud-Native; deploys for HeatSink)
-- **Data:** PostgreSQL (SchemaLens, Cloud-Native), MongoDB (FITA Academy, GLIMPSE), DynamoDB (Cloud-Native)
-- **AI and ML:** OpenAI (InboxTriage, Dry Run), Gemini (GLIMPSE), multi-agent with CrewAI (Dry Run), MCP servers (SchemaLens, IntentTrace), TensorFlow and OpenCV (ASD research), NLP (ticket classifier at Aican Automate)
-- **Testing and tools:** pytest, Vitest, property-based testing (fast-check in HeatSink, Hypothesis in IntentTrace), labeled benchmarks, Kiro for spec-driven development (IntentTrace, HeatSink)
+- **Data:** PostgreSQL (SchemaLens, Cloud-Native), MongoDB (FITA Academy, GLIMPSE), DynamoDB (Cloud-Native), SQLite (Scam Interrupt, IntentTrace)
+- **AI and ML:** OpenAI (InboxTriage, Dry Run), Gemini (GLIMPSE), open models on Groq (Scam Interrupt), multi-agent with LangChain Deep Agents (Scam Interrupt) and CrewAI (Dry Run), MCP servers (SchemaLens, IntentTrace), TensorFlow and OpenCV (ASD research), NLP (ticket classifier at Aican Automate)
+- **Testing and tools:** pytest, Vitest, property-based testing (fast-check in HeatSink, Hypothesis in IntentTrace), labeled benchmarks including a held-out set for Scam Interrupt, a mock bank and fake agent so its 22 tests run with no keys, Kiro for spec-driven development (IntentTrace, HeatSink)
 
 Also worked with: Angular, Material-UI, Django, Express, MySQL, SQLAlchemy, PyTorch.
 
