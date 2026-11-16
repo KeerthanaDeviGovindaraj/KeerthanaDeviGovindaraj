@@ -64,7 +64,7 @@ A screening tool that answers one question: if you cooled an AI data center with
 [Live demo](https://keerthanadevigovindaraj.github.io/HeatSink/) · [Video](https://youtu.be/4AGqKQUWBaI) · [Code](https://github.com/KeerthanaDeviGovindaraj/HeatSink)
 
 ### Cloud-Native Serverless App
-Production-style AWS infrastructure in 3,000+ lines of Terraform (VPCs, EC2 Auto Scaling, RDS Multi-AZ, ALB, Route53), plus an SNS to Lambda to DynamoDB verification pipeline and secure-by-default IAM, KMS, and Secrets Manager.
+AWS infrastructure in 1,300+ lines of Terraform: a VPC across availability zones, an Auto Scaling group of 3 to 5 instances behind an ALB, KMS-encrypted RDS PostgreSQL, and Route53. Plus an SNS to Lambda to DynamoDB verification pipeline secured with IAM, four rotating KMS keys, and Secrets Manager.
 
 `Python` `FastAPI` `Terraform` `AWS` `Packer` `GitHub Actions`
 
@@ -92,7 +92,7 @@ Each item points to where I've actually used it.
 - **Languages:** Python (SchemaLens, IntentTrace, Scam Interrupt, Dry Run, Cloud-Native, ASD research), TypeScript (HeatSink, SchemaLens, IntentTrace, InboxTriage, Scam Interrupt iMessage bridge), Java (Spring Boot at FITA Academy), SQL and PL/pgSQL (SchemaLens), JavaScript (GLIMPSE, Scam Interrupt)
 - **Frontend:** React (HeatSink, SchemaLens, IntentTrace, GLIMPSE, FITA Academy), Next.js (InboxTriage), Redux (GLIMPSE), Tailwind CSS (IntentTrace, InboxTriage), Vite (HeatSink, SchemaLens, IntentTrace)
 - **Backend:** FastAPI (SchemaLens, IntentTrace, Scam Interrupt, Cloud-Native), Spring Boot (20+ REST APIs with JWT and RBAC at FITA Academy), Node.js (GLIMPSE), Capital One Nessie and Photon APIs with signed webhooks (Scam Interrupt)
-- **Cloud and DevOps:** AWS (Cloud-Native: EC2 Auto Scaling, RDS Multi-AZ, ALB, Route53, Lambda, SNS, DynamoDB, IAM, KMS, Secrets Manager), Terraform, Packer, Docker (IntentTrace, Dry Run, Aican Automate), GitHub Actions (CI for SchemaLens, IntentTrace, Cloud-Native; deploys for HeatSink)
+- **Cloud and DevOps:** AWS (Cloud-Native: EC2 Auto Scaling, RDS, ALB, Route53, Lambda, SNS, DynamoDB, IAM, KMS, Secrets Manager), Terraform, Packer, Docker (IntentTrace, Dry Run, Aican Automate), GitHub Actions (CI for SchemaLens, IntentTrace, Cloud-Native; deploys for HeatSink)
 - **Data:** PostgreSQL (SchemaLens, Cloud-Native), MongoDB (FITA Academy, GLIMPSE), DynamoDB (Cloud-Native), SQLite (Scam Interrupt, IntentTrace)
 - **AI and ML:** OpenAI (InboxTriage, Dry Run), Gemini (GLIMPSE), open models on Groq (Scam Interrupt), multi-agent with LangChain Deep Agents (Scam Interrupt) and CrewAI (Dry Run), MCP servers (SchemaLens, IntentTrace), TensorFlow and OpenCV (ASD research), NLP (ticket classifier at Aican Automate)
 - **Testing and tools:** pytest, Vitest, property-based testing (fast-check in HeatSink, Hypothesis in IntentTrace), labeled benchmarks including a held-out set for Scam Interrupt, a mock bank and fake agent so its 22 tests run with no keys, Kiro for spec-driven development (IntentTrace, HeatSink)
